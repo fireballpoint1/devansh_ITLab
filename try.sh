@@ -1,5 +1,5 @@
 usr="devanshmanu"
-passwd="iwonttellyou"
+passwd="iwonttellyou123"
 
 git add .
 git commit -m "$1"
