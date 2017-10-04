@@ -8,8 +8,7 @@ expect <<- DONE
 	
 	spawn git push;
 
-	expect "Username for 'https://github.com':" 
-		send "$usr\r"
+	expect "Username for 'https://github.com':" { send "$usr\r" }
 
 	expect "Password" { send "$passwd\r" }
 
