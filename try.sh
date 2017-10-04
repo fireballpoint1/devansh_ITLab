@@ -14,6 +14,5 @@ expect <<- DONE
 
 	expect "Initialization Sequence Completed"
 
-	interact;
 DONE
 
