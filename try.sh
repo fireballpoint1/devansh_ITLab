@@ -11,7 +11,8 @@ expect <<- DONE
 	expect "Username for 'https://github.com':" 
 	send "$usr\r"
 
-	expect "Password" { send "$passwd\r" }
+	expect "Password" 
+	send "$passwd\r"
 
 	expect "Initialization Sequence Completed"
 
